@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.buttonStyle {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #7b8794;
+  border-bottom: solid 2px #7b8794;
+  background-color: transparent;
+  padding: 5px;
+  cursor: pointer;
+  width: 80px;
+  font-weight: 600;
+}
+
+.selected {
+  color: #2563eb;
+  border-bottom: solid 2px #2563eb;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+.listStyle {
+  list-style: none;
+}
