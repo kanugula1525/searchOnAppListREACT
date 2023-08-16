@@ -296,7 +296,7 @@ const appsList = [
 // Write your code here
 
 class AppStore extends Component {
-  state = {activeTabId: '', searchInput: ''}
+  state = {activeTabId: tabsList[0].tabId, searchInput: ''}
 
   clickOnItem = tabId => {
     this.setState({activeTabId: tabId})
